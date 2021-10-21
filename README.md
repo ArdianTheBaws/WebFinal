@@ -1,5 +1,5 @@
 # Web-Final
-This is final assigment in web development class.
+This is final assigment in web development class from the first semester in my CS study.
 The objective is to create accessible webpage that presents our solution to a problem given in assigment. 
 
 # Template
