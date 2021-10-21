@@ -1,0 +1,140 @@
+.navigation {
+  display: block;
+}
+
+.lang-bar {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #A3C4BC;
+  justify-content: initial;
+}
+
+.lang-bar ul {
+  list-style-type: none;
+  margin: 0em 0em;
+  padding: 0;
+  overflow: hidden;
+}
+
+.lang-bar li {
+  float: left;
+}
+
+.lang-bar img {
+  margin: 0px 5px;
+  vertical-align: -6px;
+}
+
+.lang-bar li a {
+  display: block;
+  text-decoration: none;
+}
+
+.lang-not-active a:focus,
+.lang-not-active a:hover {
+  background-color: #F7F4F3;
+}
+
+.lang-active a {
+  padding: 1px 8px 4px 8px;
+  font-weight: bold;
+  color: #F7F4F3;
+  border-top: 3px solid #F7F4F3;
+  background-color: #5D4E6D;
+}
+
+.lang-not-active a,
+.lang-not-active span {
+  padding: 4px 8px 4px 8px;
+  color: #2F323A;
+}
+
+.lang-bar li span {
+  display: inline-block;
+}
+
+/* nav bar  */
+.nav-bar {
+  background-color: #2F323A;
+  display: block;
+}
+
+.nav-logo {
+  display: inline-block;
+  font-size: 24px;
+  padding: 12px;
+  font-weight: bold;
+  color: #F7F4F3;
+}
+
+.nav-parent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0em;
+}
+
+.nav-parent ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-parent li {
+  float: left;
+}
+
+.nav-parent li a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-not-active a {
+  color: #F7F4F3;
+  padding: 16px;
+}
+
+.nav-active a {
+  background-color: #E5D4C0;
+  color: #2F323A;
+  font-weight: bold;
+  padding: 16px 16px 13px 16px;
+  border-bottom: 3px solid #A3C4BC;
+}
+
+.nav-not-active a:hover,
+.nav-not-active a:focus {
+  background-color: #F7F4F3;
+  color: #2F323A;
+}
+
+@media only screen and (min-width: 600px) {
+  .lang-bar {
+    justify-content: flex-end;
+  }
+
+  .lang-bar ul {
+    margin: 0em 2em;
+  }
+
+  .nav-parent {
+    flex-direction: initial;
+    margin: 0em 2em;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .lang-bar ul {
+    margin: 0px 100px;
+  }
+
+  .nav-parent {
+    margin: 0px 100px;
+  }
+}
+

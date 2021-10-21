@@ -1,0 +1,29 @@
+.footer {
+    background-color: #E5D4C0;
+    padding: 2em 1em;
+}
+
+.footer span {
+    display: block;
+}
+
+.footer a {
+    color: #2F323A;
+    
+}
+
+.footer a:hover, .footer a:focus {
+   
+   color: #2F323A;
+   text-decoration: none;
+   font-weight: bold;
+   border-bottom: 3px solid #2F323A;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .footer {
+        padding: 2em 5em;
+    }
+
+}

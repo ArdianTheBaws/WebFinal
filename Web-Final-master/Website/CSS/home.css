@@ -1,0 +1,44 @@
+.content {
+    margin: 100px 2em 200px 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-paragraph {
+    max-width: 100%;
+    margin: 2em 0em;
+}
+
+.main-paragraph p {
+    line-height: 24px;
+}
+
+.content img {
+    flex-shrink: 1;
+    width: 100%;
+    max-width: 500px;
+}
+
+@media only screen and (min-width: 600px) {
+    .content {
+        margin: 100px 50px 200px 50px;
+    }
+
+    .main-paragraph {
+        max-width: 500px;
+        margin: 2em 0em;
+    }
+
+    .content img {
+        flex-shrink: 0;
+        width: initial; 
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .content {
+        margin: 100px 200px 200px 200px;
+    }
+}
+
